@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import "./App.css";
 
 const PokemonType = PropTypes.shape({
-  id: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
   name: PropTypes.shape({
     english: PropTypes.string.isRequired,
     japanese: PropTypes.string.isRequired,
